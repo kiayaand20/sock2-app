@@ -8,7 +8,7 @@ const SockSquared = new Schema(
     description: { type: String, required: true },
     imgURL: { type: String, required: true },
     sock1: { type: String, required: true },
-    sock2: { type: String, required: false },
+    sock2: { type: String, required: true },
   },
   { timestamps: true }
 );
