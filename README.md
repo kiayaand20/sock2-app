@@ -51,17 +51,12 @@ Product:
 
 [Github Projects](https://github.com/kiayaand20/sock2-app/projects/1)
 
-General:
-
-- Successful deployment to Netlify
-
-<br />
-
 Frontend:
 
 - Full CRUD of products
 - Responsive Design
 - Seamless API Data render from Mongoose
+- Successful deployment to Netlify
 
 <br />
 Backend:
