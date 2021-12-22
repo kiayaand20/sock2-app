@@ -1,16 +1,16 @@
 # Project Overview
 
-<h2>Sock²</h2>
+<h1>Sock²</h1>
 
-## Overview
+## Description
 
-Sock² is an online shopping app that features creative design socks. Users will be able to create an account, browse through all products, view specific product details and add individual socks to their personal shopping cart. Similarly, the app will have the functionality of adding and editing a product. The newly added products will get added to the 'New Arrivals' page.
+Sock² is an online shopping app that features creative design socks. Users will be able to create an account, browse through all sock inventory, view specific sock details and add individual socks to their personal shopping cart. Similarly, the app will have the functionality of adding, editing, and deleting a sock. The newly added socks will be included on the details(listing) page.
 
 ## Wireframes
 
 ![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640190453/project3/home_f5oljf.png)
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640190479/project3/overview_wz2v4b.png)
+![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202424/project3/allpages_jimois.png)
 
 Figma url: https://www.figma.com/file/IYDUnaxLcvPSxfahnwYns5/Nitesh-Misra's-team-library?node-id=0%3A1
 
@@ -28,7 +28,7 @@ User:
 
 ```
 
-Product:
+Sock Details:
 
 ```
 {
@@ -45,24 +45,24 @@ Product:
 
 ## Whimsical Flowchart
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640192129/project3/Sock_2_Flow_Chart_j81mnz.png)
+![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202336/project3/Sock_2_Flow_Chart_1_vfcrcz.png)
 
 ## MVP
 
 [Github Projects](https://github.com/kiayaand20/sock2-app/projects/1)
 
-Frontend:
+Client (Frontend):
 
 - Full CRUD of products
-- Responsive Design
+- Responsive Application Design
 - Seamless API Data render from Mongoose
 - Successful deployment to Netlify
-
-<br />
-Backend:
-
 - User Authentication
-- Utilize MongoDB for CRUD
+
+Server (Backend):
+
+- Utilize Express, Mongoose, and MongoDB for full-CRUD
+- Authentication
 
 ## Post-MVP
 
