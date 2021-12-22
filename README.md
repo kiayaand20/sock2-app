@@ -54,13 +54,16 @@ Product:
 General:
 
 - Successful deployment to Netlify
-<hr>
+
+<br />
+
 Frontend:
 
 - Full CRUD of products
 - Responsive Design
 - Seamless API Data render from Mongoose
-<hr>
+
+<br />
 Backend:
 
 - User Authentication
