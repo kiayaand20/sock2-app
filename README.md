@@ -47,26 +47,26 @@ Product:
 
 ![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640192129/project3/Sock_2_Flow_Chart_j81mnz.png)
 
-## MVP/PostMVP
+## MVP
 
-MVP
+[Github Projects](https://github.com/kiayaand20/sock2-app/projects/1)
 
 General:
 
 - Successful deployment to Netlify
-
-Front-end:
+<hr>
+Frontend:
 
 - Full CRUD of products
 - Responsive Design
 - Seamless API Data render from Mongoose
-
-Back-end:
+<hr>
+Backend:
 
 - User Authentication
 - Utilize MongoDB for CRUD
 
-Post-MVP
+## Post-MVP
 
 - Create fully functional shopping cart
 
