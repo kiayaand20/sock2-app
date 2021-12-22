@@ -53,7 +53,7 @@ Sock Details:
 
 Client (Frontend):
 
-- Full CRUD of products
+- Full CRUD of product items (socks)
 - Responsive Application Design
 - Seamless API Data render from Mongoose
 - Successful deployment to Netlify
