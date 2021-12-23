@@ -5,7 +5,7 @@ export const getSocks = async (req, res) => {
     const socks = await SockSquared.find();
     res.json(socks);
   } catch (error) {
-    res.status(500).send(error.message);
+    res.status(500).json(error.message);
   }
 };
 

@@ -13,4 +13,4 @@ const SockSquared = new Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("SockSquared", SockSquared);
+export default mongoose.model("socks", SockSquared);
