@@ -8,9 +8,9 @@ Sock² is an online shopping app that features creative design socks. Users will
 
 ## Wireframes
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640190453/SockSquared3/home_f5oljf.png)
+![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640190453/project3/home_f5oljf.png)
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202424/SockSquared3/allpages_jimois.png)
+![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202424/project3/allpages_jimois.png)
 
 Figma url: https://www.figma.com/file/IYDUnaxLcvPSxfahnwYns5/Nitesh-Misra's-team-library?node-id=0%3A1
 
@@ -45,7 +45,7 @@ Sock Details:
 
 ## Whimsical Flowchart
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202336/SockSquared3/Sock_2_Flow_Chart_1_vfcrcz.png)
+![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202336/project3/Sock_2_Flow_Chart_1_vfcrcz.png)
 
 ## MVP
 
