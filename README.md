@@ -1,4 +1,4 @@
-# Project Overview
+# SockSquared Overview
 
 <h1>Sock²</h1>
 
@@ -49,7 +49,7 @@ Sock Details:
 
 ## MVP
 
-[Github Projects](https://github.com/kiayaand20/sock2-app/projects/1)
+[Github SockSquareds](https://github.com/kiayaand20/sock2-app/SockSquareds/1)
 
 Client (Frontend):
 
