@@ -1,8 +1,17 @@
 import db from '../db/connection.js'
 import SockSquared from '../models/sock.js'
+import User from '../models/user.js'
+import bcrypt from 'bcrypt'
 
 const insertData = async () => {
   await db.dropDatabase();
+
+  const user1 = new User({
+    username: 'bruno',
+    email: 'root@super.gmail.com',
+    password_digest: await bcrypt.hash('!a$ecureP@ssw0Rd55!', 11)
+  })
+  await user1.save()
 
   const socks = [
     {
