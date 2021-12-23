@@ -1,7 +1,7 @@
 import express from "express";
 import logger from "morgan";
 
-import SockSquaredRoutes from "./routes/socks.js";
+import SockSquaredRoutes from "./routes/index.js";
 
 const app = express();
 
