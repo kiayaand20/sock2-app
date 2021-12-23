@@ -1,3 +1,6 @@
+import db from '../db/connection.js'
+import SockSquared from '../models/sock.js'
+
 const insertData = async () => {
   await db.dropDatabase();
 
