@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap");
+
+.teamMember {
+  text-align: left;
+  display: inline-block;
+  margin: 90px;
+}
+
+.name {
+  width: 200px;
+  height: 80px;
+  background: #858585;
+  color: white;
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+  display: block;
+}
