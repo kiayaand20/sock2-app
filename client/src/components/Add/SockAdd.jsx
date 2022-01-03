@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './SockAdd.css'
-import { Layout } from '../../components'
+import Layout from '../Layout/Layout'
 import { useNavigate } from 'react-router-dom'
 import { createSock } from '../../services/socks'
 
