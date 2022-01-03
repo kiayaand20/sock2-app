@@ -20,6 +20,10 @@ const SockCards = () => {
           _id={sock._id}
           name={sock.name}
           imgURL={sock.imgURL}
+          price={sock.price}
+          description={sock.description}
+          sock1={sock.sock1}
+          sock2={sock.sock2}
           key={index}
         />
       ) : null
