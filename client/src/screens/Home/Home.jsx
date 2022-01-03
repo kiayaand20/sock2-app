@@ -7,9 +7,9 @@ export default function Home(props) {
   return (
     <div>
       <Layout user={props.user}>
-      <div className='home'>
-        <SockCards />
-      </div>
+        <div className='home'>
+          <SockCards />
+        </div>
       </Layout>
     </div>
   )
