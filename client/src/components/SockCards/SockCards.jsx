@@ -14,10 +14,8 @@ const SockCards = () => {
     fetchSocks()
   }, [])
 
-  const CARDS = socks
-    .reverse()
-    .map((sock, index) =>
-      index < 8 ? (
+  const CARDS = socks.map((sock, index) =>
+      index < 12 ? (
         <SockCard
           _id={sock._id}
           name={sock.name}
