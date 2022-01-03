@@ -1,11 +1,15 @@
 import React from 'react'
+import './Home.css'
 import Layout from '../../components/Layout/Layout'
-export default function Home() {
+import SockCards from '../../components/SockCards/SockCards'
+
+export default function Home(props) {
   return (
     <div>
-      <h1>hello???</h1>
-      <Layout>
-        <h1>PAIn</h1>
+      <Layout user={props.user}>
+      <div className='home'>
+        <SockCards />
+      </div>
       </Layout>
     </div>
   )
