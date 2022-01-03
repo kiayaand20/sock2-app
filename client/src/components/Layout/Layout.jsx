@@ -9,10 +9,10 @@ export default function Layout(props) {
     <div className='layout'>
       <Header />
       <Nav user={props.user} />
-      <div className='layout-children'>
+      {/* <div className='layout-children'>
         {props.children}
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
