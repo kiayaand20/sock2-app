@@ -11,5 +11,3 @@ app.use(logger("dev"));
 app.use("/api", SockSquaredRoutes);
 
 export default app;
-
-// test
