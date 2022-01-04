@@ -7,7 +7,7 @@ export default function Home(props) {
   return (
     <div>
       <Layout>
-      <div className='logo-small'>Funky, Creative Stylish.</div>
+      <div className='logo-small'>Funky, Creative, Stylish.</div>
 
       <div className='home-intro'>Sock² is reinventing the boring sock. 
           Checkout the new, funky designs that 
