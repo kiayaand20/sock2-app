@@ -43,61 +43,75 @@ export default function SockEdit() {
   }
 
   return (
-    <Layout>
+    <Layout >
       <form onSubmit={handleSubmit}>
-        <input
-          className='edit-name'
-          placeholder='Name'
-          value={product.name}
-          name='name'
-          required
-          autoFocus
-          onChange={handleChange}
-        />
-        <input
-          className='edit-price'
-          placeholder='Price'
-          value={product.price}
-          name='price'
-          required
-          onChange={handleChange}
-        />
-        <textarea
-          className='edit-description'
-          rows={10}
-          placeholder='Description'
-          value={product.description}
-          name='description'
-          required
-          onChange={handleChange}
-        />
-        <input
-          className='edit-imageURL'
-          placeholder='Image Link'
-          value={product.imgURL}
-          name='imgURL'
-          required
-          onChange={handleChange}
-        />
+        <div className='input-section'>
+          <h3 className='prompt'> Product Name:</h3>
           <input
-          className='edit-sock1'
-          placeholder='sock1'
-          value={product.sock1}
-          name='sock1'
-          required
-          onChange={handleChange}
-        />
+            className='input'
+            value={product.name}
+            name='name'
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+        </div>
+        <div className='input-section'>
+          <h3 className='prompt'> Product Price:</h3>
           <input
-          className='edit-sock2'
-          placeholder='sock2'
-          value={product.sock2}
-          name='sock2'
-          required
-          onChange={handleChange}
-        />
-        <button type='submit'>Submit</button>
+            className='input'
+            value={product.price}
+            name='price'
+            required
+            onChange={handleChange}
+          />
+        </div>
+
+        <div className='input-section'>
+          <h3 className='prompt'> Product Description:</h3>
+          <input
+            className='input'
+            rows={10}
+            value={product.description}
+            name='description'
+            required
+            onChange={handleChange}
+          />
+        </div>
+        <div className='input-section'>
+          <h3 className='prompt'> Image URL:</h3>
+          <input
+            className='input'
+            value={product.imgURL}
+            name='imgURL'
+            required
+            onChange={handleChange}
+          />
+        </div>
+        <div className='input-section'>
+          <h3 className='prompt'> Sock 1:</h3>
+          <input
+            className='input'
+            value={product.sock1}
+            name='sock1'
+            required
+            onChange={handleChange}
+          />
+        </div>
+        <div className='input-section'>
+          <h3 className='prompt'> Sock 2:</h3>
+          <input
+            className='input'
+            value={product.sock2}
+            name='sock2'
+            required
+            onChange={handleChange}
+          />
+        </div>
+        <button className='submit' type='submit'>Submit</button>
       </form>
     </Layout>
+    
   )
   
 }
