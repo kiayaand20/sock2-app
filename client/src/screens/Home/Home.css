@@ -38,12 +38,16 @@
 }
 
 .view-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Hanuman", serif;
   color: black;
   border-radius: 25px;
   border: 2px solid #00b47b;
-  padding: 15px;
-  margin: 30px 455px;
+  width: 150px;
+  height: 5px;
+  padding: 25px;
 }
 
 .explore {

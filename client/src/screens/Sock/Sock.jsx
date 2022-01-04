@@ -31,11 +31,11 @@ export default function Sock(props) {
             alt={sock.name}
           />
           <div className='detail'>
-            <div className='name'>{sock.name}</div>
+            <div className='sock-name'>{sock.name}</div>
             <div className='price'>{`$${sock.price}`}</div>
             <div className='description'>{sock.description}</div>
-            <div className='sock1'>{sock.sock1}</div>
-            <div className='sock2'>{sock.sock2}</div>
+            <div className='sock1'>Sock 1: {sock.sock1}</div>
+            <div className='sock2'>Sock 2: {sock.sock2}</div>
             <div className='button-container'>
               <Link className='edit-button' to={`/socks/${sock._id}/edit`}>
                 Edit
