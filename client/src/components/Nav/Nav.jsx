@@ -25,16 +25,16 @@ const unauthenticated = (
 )
 
 
-export default function Nav({user}) {
+export default function Nav({ user }) {
   return (
     <nav>
       <div className='nav'>
         <NavLink className="logo" to="/">Sock²</NavLink>
-                    <div className="links">
-                        {user && <div className="link welcome">Welcome, {user.username}</div>}
-                        {alwaysRender}
-                        {user ? authenticated : unauthenticated}
-                    </div>
+        <div className="links">
+          {user && <div className="link welcome">Welcome, {user.username}</div>}
+          {alwaysRender}
+          {user ? authenticated : unauthenticated}
+        </div>
       </div>
     </nav>
   )
