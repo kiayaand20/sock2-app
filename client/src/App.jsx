@@ -1,7 +1,7 @@
-import './App.css';
-import Home from './screens/Home/Home';
-import AboutUs from './screens/AboutUs/AboutUs';
-import AllSocks from './screens/AllSocks/AllSocks';
+import './App.css'
+import Home from './screens/Home/Home'
+import AboutUs from './screens/AboutUs/AboutUs'
+import AllSocks from './screens/AllSocks/AllSocks'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Route path='/socks' element={<AllSocks />} />
       </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
