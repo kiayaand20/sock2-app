@@ -49,7 +49,7 @@
 
 .sock-detail-image {
   width: 500px;
-  padding: 0 70px;
+  padding: 0 40px;
 }
 
 .button-container {
@@ -98,7 +98,7 @@
   }
   .sock-detail-image {
     width: 500px;
-    margin-top: -100px;
+    margin-top: -40px;
     padding: 10px;
   }
   .sock-detail {
