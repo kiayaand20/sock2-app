@@ -33,7 +33,8 @@ export default function Home(props) {
         </div>
 
         <h2 className='explore'>More to Explore</h2>
-        
+
+       <div className='quizzes'>
         <div className='dot1'>
           <div className='quiz1'>
             <a href="https://sayitwithasock.com/blogs/sock/13-random-fun-and-useless-facts-about-socks" style={{  textDecoration: 'none', color: 'black' }}>
@@ -55,8 +56,8 @@ export default function Home(props) {
             <a href="https://mysocietysocks.com/blogs/news/how-to-wear-colorful-socks" style={{  textDecoration: 'none', color: 'black' }}>
             Curious how to style colorful socks? Let's find out! </a>
           </div>
-        </div>
-
+          </div>
+          </div>
       </Layout>
     </div>
   )
