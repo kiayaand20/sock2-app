@@ -1,9 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
 
-.featured {
+.logo-small {
+  color: #007c4a;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Hanuman", serif;
+  padding-top: 30px;
+  padding-left: 13px;
+}
+
+.home-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   font-family: "Hanuman", serif;
   font-size: 24px;
   font-weight: 400;
+  padding: 20px;
+  width: 45%;
+  margin: 0px auto;
+  border-bottom: solid #00b47b;
+}
+
+.featured {
+  font-family: "Hanuman", serif;
+  font-size: 24px;
+  font-weight: bold;
   padding-top: 15px;
 }
 
@@ -15,28 +38,20 @@
 }
 
 .view-btn {
-  text-decoration: none;
   font-family: "Hanuman", serif;
   color: black;
   border-radius: 25px;
   border: 2px solid #00b47b;
   padding: 15px;
-  margin: 0 10px;
+  margin: 30px 455px;
 }
 
-.home-intro {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.explore {
   font-family: "Hanuman", serif;
-  font-size: 35px;
-  font-weight: 400;
-  padding: 60px;
-  width: 45%;
-  margin: 0px auto;
-  /* border-left: solid #00b47b;
-  border-right: solid #00b47b; */
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .dot1 {
