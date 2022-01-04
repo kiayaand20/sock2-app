@@ -17,7 +17,6 @@ export default function SockCard(props) {
     direction="row"
     alignItems="center"
     justifyContent="center"
-    // style={{ minHeight: '100vh' }}
     >
     <Grid item key={props._id}>
         <Card sx={{
