@@ -31,7 +31,6 @@ const SockCards = () => {
 
   return (
     <div className='sock-cards'>
-      <div className='latest'>Featured</div>
       <div className='cards'>{CARDS}</div>
     </div>
   )
