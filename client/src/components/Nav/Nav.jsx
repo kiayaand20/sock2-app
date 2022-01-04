@@ -20,7 +20,7 @@ const authenticated = (
 
 const unauthenticated = (
   <>
-    <NavLink className="nav-link" to='/signup'> Sign Up </NavLink>
+    <NavLink className="nav-link" to='/sign-up'> Sign Up </NavLink>
   </>
 )
 
