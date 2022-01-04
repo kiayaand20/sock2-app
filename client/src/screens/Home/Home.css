@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
+
+.featured {
+  font-family: "Hanuman", serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.featured-imgs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.view-btn {
+  text-decoration: none;
+  font-family: "Hanuman", serif;
+  color: black;
+  border-radius: 25px;
+  border: 2px solid #00b47b;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+.home-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanuman", serif;
+  font-size: 35px;
+  font-weight: 400;
+  padding: 60px;
+  width: 45%;
+  margin: 0px auto;
+  /* border-left: solid #00b47b;
+  border-right: solid #00b47b; */
+}
+
+.dot1 {
+  height: 250px;
+  width: 250px;
+  background-color: #007c4a;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 250px;
+  width: 250px;
+  background-color: #f0d163;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 250px;
+  width: 250px;
+  background-color: #6985eb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.quiz1 {
+  padding-top: 100px;
+  font-weight: bold;
+  font-family: "Hanuman", serif;
+}

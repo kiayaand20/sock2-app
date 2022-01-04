@@ -10,20 +10,20 @@ import { Link } from 'react-router-dom'
 
 export default function SockCard(props) {
   return (
-    <Link className="card" to={`/socks/${props._id}`}>
+    <div className='cards'>
+    <Link to={`/socks/${props._id}`}>
     <Grid container 
     spacing={0}
     direction="row"
     alignItems="center"
     justifyContent="center"
-    style={{ minHeight: '100vh' }}
+    // style={{ minHeight: '100vh' }}
     >
     <Grid item key={props._id}>
         <Card sx={{
-          maxWidth: 240,
+          maxWidth: 260,
           display: 'inline-block',
-            margin: '0',
-          border: 'green'
+          margin: '20px'
         }}>
       <CardActionArea>
         <CardMedia
@@ -33,7 +33,7 @@ export default function SockCard(props) {
           alt="sock image"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h6" component="div">
           {props.name}
           </Typography>
           <Typography variant="body1" color="black" textDecoration="none">
@@ -45,5 +45,6 @@ export default function SockCard(props) {
         </Grid>
         </Grid>
       </Link>
+      </div>
   )
 }

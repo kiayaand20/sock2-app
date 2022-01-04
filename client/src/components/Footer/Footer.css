@@ -1,5 +1,6 @@
 .footer-img {
-  height: 90px;
-  overflow: hidden;
-  margin: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
 }
