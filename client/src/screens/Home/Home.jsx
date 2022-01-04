@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.css'
 import Layout from '../../components/Layout/Layout'
 import { Link } from 'react-router-dom'
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 export default function Home(props) {
   return (
@@ -23,7 +25,11 @@ export default function Home(props) {
         </div>
 
         <div className='view-btn'>
-          <Link to={`/socks`} style={{  textDecoration: 'none', color: 'black' }}>View All Socks</Link>
+          <Link to={`/socks`}>
+            <Stack spacing={2} direction="row">
+              <Button variant="outlined" >View All Socks</Button>
+            </Stack>
+          </Link>
         </div>
 
         <h2 className='explore'>More to Explore</h2>
