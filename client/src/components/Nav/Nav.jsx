@@ -29,8 +29,7 @@ export default function Nav({user}) {
   return (
     <nav>
       <div className='nav'>
-        <NavLink className="logo" to="/">Sock²<div className='logo-small'>Funky, Creative Stylish.</div></NavLink>
-        {/* <div className='logo-small'>Funky, Creative Stylish.</div> */}
+        <NavLink className="logo" to="/">Sock²</NavLink>
                     <div className="links">
                         {user && <div className="link welcome">Welcome, {user.username}</div>}
                         {alwaysRender}

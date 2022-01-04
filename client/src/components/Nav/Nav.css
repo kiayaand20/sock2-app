@@ -21,6 +21,7 @@ nav {
 .logo {
   display: flex;
   padding-top: 20px;
+  padding-left: 15px;
   font-family: "Indie Flower", cursive;
   text-decoration: none;
   text-align: center;
@@ -30,14 +31,6 @@ nav {
   flex: 1;
   max-width: 30vw;
   color: #007c4a;
-}
-
-.logo-small {
-  color: #007c4a;
-  font-size: 13px;
-  font-family: "Hanuman", serif;
-  padding-top: 55px;
-  padding-left: 13px;
 }
 
 .links {

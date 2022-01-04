@@ -7,20 +7,26 @@ export default function Home(props) {
   return (
     <div>
       <Layout>
+      <div className='logo-small'>Funky, Creative Stylish.</div>
+
+      <div className='home-intro'>Sock² is reinventing the boring sock. 
+          Checkout the new, funky designs that 
+          add a touch of creativity and inspiration 
+          to any outfit.</div>
+        
         <h2 className='featured'>Featured Designs</h2>
        
         <div className='featured-imgs'>
-          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200910/project3/Sock2%20Photos/07a_rpegfu.jpg" alt="icecream-sock" width="300" height="315"/>
-          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200926/project3/Sock2%20Photos/12-2_cnoasf.jpg" alt="resonance-sock" width="300" height="315"/>
-          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200916/project3/Sock2%20Photos/06B_j6tgf8.jpg" alt="pushit-sock" width="300" height="315"/>
+          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200910/project3/Sock2%20Photos/07a_rpegfu.jpg" alt="icecream-sock" width="320" height="315"/>
+          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200926/project3/Sock2%20Photos/12-2_cnoasf.jpg" alt="resonance-sock" width="320" height="315"/>
+          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200916/project3/Sock2%20Photos/06B_j6tgf8.jpg" alt="pushit-sock" width="320" height="315"/>
         </div>
 
-        <Link to={`/socks`} className='view-btn'>View All Socks</Link>
-         
-        <label className='home-intro'>Sock² is reinventing the boring sock. 
-          Checkout the new, funky designs that 
-          add a touch of creativity and inspiration 
-          to any outfit.</label>
+        <div className='view-btn'>
+          <Link to={`/socks`} style={{  textDecoration: 'none', color: 'black' }}>View All Socks</Link>
+        </div>
+
+        <h2 className='explore'>More to Explore</h2>
         
         <div className='dot1'>
           <div className='quiz1'>
