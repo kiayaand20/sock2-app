@@ -74,6 +74,10 @@
   border-radius: 50%;
   display: inline-block;
 }
+.quizzes {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .quiz1 {
   padding-top: 100px;
