@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Home(props) {
   return (
     <div>
-      <Layout>
+      <Layout user={props.user}>
       <div className='logo-small'>Funky, Creative, Stylish.</div>
 
       <div className='home-intro'>Sock² is reinventing the boring sock. 
