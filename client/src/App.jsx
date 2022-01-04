@@ -3,10 +3,11 @@ import Home from './screens/Home/Home'
 import AboutUs from './screens/AboutUs/AboutUs'
 import AllSocks from './screens/AllSocks/AllSocks'
 import AddSock from './screens/AddSock/AddSock'
-import Sock from './screens/Sock/Sock'
 import { Routes, Route } from 'react-router-dom'
+import SockEdit from './components/Edit/SockEdit'
+import Sock from './screens/Sock/Sock'
 
-function App(props) {
+function App() {
   return (
     <div className='body'>
       <Routes>
@@ -14,7 +15,8 @@ function App(props) {
         <Route path='/about-us' element={<AboutUs />} />
         <Route path='/socks' element={<AllSocks />} />
         <Route path='/new-arrivals' element={<AddSock />} />
-        <Route path='/socks/:id' element={<Sock />} />
+        <Route path='/socks/${sock._id}/edit' element={<SockEdit />} />
+        <Route path='/socks/:id' element={<Sock/>} />
       </Routes>
     </div>
   )
