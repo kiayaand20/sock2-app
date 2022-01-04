@@ -29,7 +29,7 @@ function App() {
         <Route path='/about-us' element={<AboutUs />} />
         <Route path='/socks' element={<AllSocks />} />
         <Route path='/new-arrivals' element={<AddSock />} />
-        <Route path='/socks/:id/edit' element={user ? <SockEdit user={user} /> : <Navigate to='/' />} />
+        <Route path='/socks/:id/edit' element={<SockEdit />} />
         <Route path='/socks/:id' element={<Sock />} />
         <Route path='/signup' element={<SignUp />} />
 
