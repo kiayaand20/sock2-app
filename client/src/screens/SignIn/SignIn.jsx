@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './SignIn.css'
 import { signIn } from '../../services/user'
 import { useNavigate } from 'react-router-dom'
+import Layout from '../../components/Layout/Layout'
+
 
 const SignIn = (props) => {
   const navigate = useNavigate()
@@ -42,42 +44,54 @@ const SignIn = (props) => {
     const toggleForm = form.isError ? 'danger' : ''
     if (form.isError) {
       return (
-        <button type='submit' className={toggleForm}>
+        <button className='signinsubmit' type='submit' className={toggleForm}>
           {form.errorMsg}
         </button>
       )
     } else {
-      return <button type='submit'>Sign In</button>
+      return <button className='signinsubmit' type='submit'>Sign In</button>
     }
   }
 
   const { email, password } = form
 
   return (
-    <div className='form-container'>
-      <h3>Sign In</h3>
+    <Layout>
+    <div className='signin-container'>
+      <h1 className='welcome'>Welcome Back!</h1>
       <form onSubmit={onSignIn}>
-        <label>email</label>
-        <input
+      <h3 className='signinprompt'>Email:</h3>
+      <div className='signinsection'>
+      
+          <input
+          className='signininput'
           required
           type='text'
           name='email'
           value={email}
           placeholder='Enter email'
           onChange={handleChange}
-        />
-        <label>Password</label>
-        <input
+          />
+        </div>
+        <h3 className='signinprompt'> Password:</h3>
+        <div className='signinsection'>
+        
+          <input
+          className='signininput'
           required
           name='password'
           value={password}
           type='password'
           placeholder='Password'
           onChange={handleChange}
-        />
+          />
+        </div>
+        <h3 className='signuptoday'>Don't have an account? Sign-up today!</h3>
         {renderError()}
       </form>
-    </div>
+      
+      </div>
+      </Layout>
   )
 }
 
