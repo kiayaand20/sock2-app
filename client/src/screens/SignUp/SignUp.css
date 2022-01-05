@@ -3,7 +3,7 @@
   margin-top: 50px;
 }
 
-/* button {
+.sign-up-btn {
   justify-self: right;
   font-family: "Indie Flower", cursive;
   background: #c4c4c4;
@@ -13,7 +13,7 @@
   font-weight: bold;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
   margin-top: 15px;
-} */
+}
 
 .input {
   display: flex;
