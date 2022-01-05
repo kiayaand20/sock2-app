@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './SignIn.css'
 import { signIn } from '../../services/user'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Layout from '../../components/Layout/Layout'
 
 
@@ -44,7 +44,7 @@ const SignIn = (props) => {
     const toggleForm = form.isError ? 'danger' : ''
     if (form.isError) {
       return (
-        <button className='signinsubmit' type='submit' className={toggleForm}>
+        <button className='signinsubmit' type='submit' className={toggleForm} >
           {form.errorMsg}
         </button>
       )
@@ -60,7 +60,7 @@ const SignIn = (props) => {
     <div className='signin-container'>
       <h1 className='welcome'>Welcome Back!</h1>
       <form onSubmit={onSignIn}>
-      <h3 className='signinprompt'>Email:</h3>
+      <h3 className='signinpromptone'>Email:</h3>
       <div className='signinsection'>
       
           <input
@@ -85,8 +85,10 @@ const SignIn = (props) => {
           placeholder='Password'
           onChange={handleChange}
           />
-        </div>
-        <h3 className='signuptoday'>Don't have an account? Sign-up today!</h3>
+          </div>
+          <Link className='signuptodaylink'to='/sign-up'>
+            <h3 className='signuptoday'>Don't have an account? Sign-up today!</h3>
+            </Link>
         {renderError()}
       </form>
       
