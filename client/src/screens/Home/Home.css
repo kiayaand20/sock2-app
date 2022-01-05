@@ -47,7 +47,7 @@
 
 .btn {
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 10px;
