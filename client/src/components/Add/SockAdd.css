@@ -14,7 +14,7 @@
   margin: 0 80px;
   font-size: 36px;
   font-family: "Hanuman", serif;
-  text-align: center;
+  text-align: left;
   justify-self: flex-start;
 }
 .input {
@@ -24,7 +24,7 @@
   background: #c4c4c4;
   font-size: 30px;
   font-family: "Hanuman", serif;
-  text-align: center;
+  text-align: left;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
 }
 

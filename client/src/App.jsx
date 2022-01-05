@@ -32,7 +32,7 @@ function App() {
         <Route path='/new-arrivals' element={<AddSock />} />
         <Route path='/socks/:id/edit' element={<SockEdit/>} />
         <Route path='/socks/:id' element={<Sock />} />
-        <Route path='/signup' element={<SignUp />} />
+        <Route path='/sign-up' element={<SignUp />} />
         <Route path='/sign-in' element={<SignIn/>}/>
       </Routes>
     </div>
