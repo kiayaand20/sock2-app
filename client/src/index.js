@@ -11,7 +11,7 @@ ReactDOM.render(
    <StyledEngineProvider>
     <Router>
       <App />
-      </Router>
+    </Router>
    </StyledEngineProvider>
   </React.StrictMode>,
   document.getElementById('root')
