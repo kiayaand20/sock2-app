@@ -2,11 +2,11 @@ import React from 'react'
 import './AboutUs.css'
 import Layout from '../../components/Layout/Layout'
 
-export default function AboutUs() {
+export default function AboutUs(props) {
 
 
   return (
-    <Layout>
+    <Layout user={props.user}>
 
       <div>
         <h1> Check Us Out!</h1>
