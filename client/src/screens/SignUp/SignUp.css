@@ -1,18 +1,23 @@
 .form-container {
   display: flex;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.sign-up-title {
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .sign-up-btn {
-  justify-self: right;
+  justify-self: center;
   font-family: "Indie Flower", cursive;
   background: #c4c4c4;
   width: 180px;
   height: 72px;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .input {
@@ -20,17 +25,22 @@
   width: 690px;
   height: 50px;
   background: #c4c4c4;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Hanuman", serif;
   text-align: left;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
   margin-bottom: 15px;
+  padding-left: 5px;
 }
 
 .label {
   display: flex;
   text-align: left;
   justify-content: flex-start;
+  font-family: "Hanuman", serif;
+  font-size: 24px;
+  padding-bottom: 15px;
+  padding-top: 20px;
 }
 .call-to-action {
   /* display: flex; */
@@ -39,12 +49,20 @@
   font-family: "Hanuman", serif;
   text-align: left;
   justify-self: flex-start;
+  padding-left: 50px;
 }
 
 p {
   font-size: 25px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 60px;
+  padding-top: 50px;
+}
 /* .call-to-action-p {
   display: flex;
   margin: 0 80px;
