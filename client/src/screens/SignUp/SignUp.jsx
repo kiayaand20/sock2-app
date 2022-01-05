@@ -50,7 +50,7 @@ const SignUp = (props) => {
         </button>
       )
     } else {
-      return <button type='submit'>Sign Up</button>
+      return <button type='submit' className='sign-up-btn'>Sign Up</button>
     }
   }
 
@@ -60,12 +60,17 @@ const SignUp = (props) => {
     <Layout>
     <div className='form-container'>
       <div className='call-to-action'>
-        <h3>Sign-up Today!</h3>
+        <p className='sign-up-title'>Sign-up Today!</p>
         <div className='call-to-action-p'>
-          <p>Create your profile and get access to all our New Arrivals.</p>
+          <p>Create your user profile and get first access to all new arrivals and style inspiration.</p>
         </div>
+        <div className='sign-up-img'>
+          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200926/project3/Sock2%20Photos/12-2_cnoasf.jpg"
+            alt="sock-img" width="315px" height="320px" />
         </div>
-        <form onSubmit={onSignUp}>
+          
+        </div>
+        <form onSubmit={onSignUp} className='form'>
         <label className='label'>Username</label>
           <input
           className='input'
