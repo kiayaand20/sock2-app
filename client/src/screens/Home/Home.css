@@ -101,7 +101,7 @@
   flex-wrap: wrap;
 }
 
-.quiz1 {
+.quiz {
   padding-top: 100px;
   font-weight: bold;
   font-family: 'Hanuman', serif;
@@ -114,4 +114,30 @@
   font-size: 30px;
   font-weight: bold;
   padding-top: 25px;
+}
+
+.review-pics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review-pics2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review1,
+.review2,
+.review3,
+.review4 {
+  padding-right: 20px;
+}
+
+.review1,
+.review2,
+.review3,
+.review4 {
+  padding-bottom: 20px;
 }

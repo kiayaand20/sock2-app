@@ -9,6 +9,7 @@ import SockEdit from './components/Edit/SockEdit'
 import Sock from './screens/Sock/Sock'
 import SignUp from './screens/SignUp/SignUp'
 import { verifyUser } from './services/user'
+import SignIn from './screens/SignIn/SignIn'
 
 function App() {
 
@@ -31,8 +32,8 @@ function App() {
         <Route path='/new-arrivals' element={<AddSock />} />
         <Route path='/socks/:id/edit' element={<SockEdit/>} />
         <Route path='/socks/:id' element={<Sock />} />
-        <Route path='/signup' element={<SignUp />} />
-
+        <Route path='/sign-up' element={<SignUp />} />
+        <Route path='/sign-in' element={<SignIn/>}/>
       </Routes>
     </div>
   )

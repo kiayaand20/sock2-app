@@ -61,29 +61,34 @@ const SignUp = (props) => {
     <div className='form-container'>
       <div className='call-to-action'>
         <h3>Sign-up Today!</h3>
-        <p>Create your profile and get access to all our New Arrivals.</p>
-      </div>
+        <div className='call-to-action-p'>
+          <p>Create your profile and get access to all our New Arrivals.</p>
+        </div>
+        </div>
         <form onSubmit={onSignUp}>
-        <label>Username</label>
-        <input
+        <label className='label'>Username</label>
+          <input
+          className='input'
           required
           type='text'
           name='username'
           value={username}
-          placeholder='Enter username'
+          placeholder='ex: SocksFan420'
           onChange={handleChange}
         />
-        <label>E-mail</label>
-        <input
+        <label className='label'>E-mail</label>
+          <input
+            className='input'
           required
           type='email'
           name='email'
           value={email}
-          placeholder='Email'
+          placeholder='ex: tubesRus@netscape.net'
           onChange={handleChange}
         />
-        <label>Password</label>
-        <input
+        <label className='label'>Password</label>
+          <input
+            className='input'
           required
           name='password'
           value={password}
@@ -91,8 +96,9 @@ const SignUp = (props) => {
           placeholder='Password'
           onChange={handleChange}
         />
-        <label>Confirm Password</label>
-        <input
+        <label className='label'>Confirm Password</label>
+          <input
+            className='input'
           required
           name='passwordConfirmation'
           value={passwordConfirmation}
