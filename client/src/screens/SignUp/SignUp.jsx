@@ -50,7 +50,7 @@ const SignUp = (props) => {
         </button>
       )
     } else {
-      return <button type='submit'>Sign Up</button>
+      return <button type='submit' className='sign-up-btn'>Sign Up</button>
     }
   }
 

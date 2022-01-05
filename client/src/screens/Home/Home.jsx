@@ -65,7 +65,7 @@ export default function Home(props) {
         <div className='review-pics2'>
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1641400920/project3/Beige_Product_Review_Fashion_Instagram_Post_2_hz3c8v.png"
             alt="review 3" width="450" height="410" className='review3' />
-          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1641400906/project3/Beige_Product_Review_Fashion_Instagram_Post_3_tx6xmt.png"
+          <img src="https://res.cloudinary.com/kacloud20/image/upload/v1641403320/project3/Beige_Product_Review_Fashion_Instagram_Post_4_yjmhpu.png"
             alt="review 4"  width="450" height="410" className='review4'/>
         </div>
       </Layout>
