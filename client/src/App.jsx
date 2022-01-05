@@ -10,7 +10,7 @@ import Sock from './screens/Sock/Sock'
 import SignUp from './screens/SignUp/SignUp'
 import { verifyUser } from './services/user'
 import SignIn from './screens/SignIn/SignIn'
-
+import SignOut from './screens/SignOut/SignOut'
 function App() {
 
   const [user, setUser] = useState(null)
@@ -31,6 +31,7 @@ function App() {
         <Route path='/socks' element={<AllSocks user={user}/>} />
         <Route path='/new-arrivals' element={<AddSock user={user}/>} />
         <Route path='/socks/:id/edit' element={<SockEdit/>} />
+        <Route path='/sign-out' element={<SignOut setUser={setUser}/>} />
         <Route path='/socks/:id' element={<Sock user={user}/>} />
         <Route path='/sign-up' element={<SignUp setUser={setUser} />} />
         <Route path='/sign-in' element={<SignIn setUser={setUser}/>}/>
