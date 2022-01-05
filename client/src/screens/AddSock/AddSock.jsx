@@ -1,10 +1,10 @@
 import SockAdd from "../../components/Add/SockAdd";
 
 
-export default function AddSock() {
+export default function AddSock(props) {
   return (
     <div>
-      <SockAdd/>
+      <SockAdd user={props.user}/>
     </div>
   )
 }

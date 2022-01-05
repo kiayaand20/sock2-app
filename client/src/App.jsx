@@ -30,7 +30,7 @@ function App() {
         <Route path='/about-us' element={<AboutUs user={user}/>} />
         <Route path='/socks' element={<AllSocks user={user}/>} />
         <Route path='/new-arrivals' element={<AddSock user={user}/>} />
-        <Route path='/socks/:id/edit' element={<SockEdit/>} />
+        <Route path='/socks/:id/edit' element={<SockEdit user={user}/>} />
         <Route path='/sign-out' element={<SignOut setUser={setUser}/>} />
         <Route path='/socks/:id' element={<Sock user={user}/>} />
         <Route path='/sign-up' element={<SignUp setUser={setUser} />} />

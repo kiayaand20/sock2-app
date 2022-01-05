@@ -5,7 +5,7 @@ import Layout from '../Layout/Layout'
 import './SockEdit.css'
 
 
-export default function SockEdit() {
+export default function SockEdit(props) {
 
   let navigate = useNavigate()
 
@@ -43,7 +43,7 @@ export default function SockEdit() {
   }
 
   return (
-    <Layout >
+    <Layout user={props.user}>
       <form onSubmit={handleSubmit}>
         <div className='input-section'>
           <h3 className='prompt'> Product Name:</h3>
