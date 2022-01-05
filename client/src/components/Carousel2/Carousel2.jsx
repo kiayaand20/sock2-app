@@ -10,23 +10,23 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    label: "Green Orchid, $89",
+    label: "Painted Black, $39",
     imgPath:
-      "https://res.cloudinary.com/kacloud20/image/upload/v1640200919/project3/Sock2%20Photos/09-2_rltxln.jpg"
+      "https://res.cloudinary.com/kacloud20/image/upload/v1640200912/project3/Sock2%20Photos/11_jwjah0.jpg"
   },
   {
-    label: "Resonance, $69",
+    label: "Essence, $79",
     imgPath:
-      "https://res.cloudinary.com/kacloud20/image/upload/v1640200926/project3/Sock2%20Photos/12-2_cnoasf.jpg"
+      "https://res.cloudinary.com/kacloud20/image/upload/v1640200914/project3/Sock2%20Photos/06c_yzrsqz.jpg"
   },
   {
-    label: "Push it along, $59",
+    label: "Cloud of Unknowing, $59",
     imgPath:
-      "https://res.cloudinary.com/kacloud20/image/upload/v1640200916/project3/Sock2%20Photos/06B_j6tgf8.jpg"
+      "https://res.cloudinary.com/kacloud20/image/upload/v1640200908/project3/Sock2%20Photos/02_qovx4v.jpg"
   }
 ];
 
-function FeaturedCarousel() {
+function FeaturedCarousel2() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
 
@@ -78,4 +78,4 @@ function FeaturedCarousel() {
   );
 }
 
-export default FeaturedCarousel
+export default FeaturedCarousel2
