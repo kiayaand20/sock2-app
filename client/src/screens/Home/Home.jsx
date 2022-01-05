@@ -3,6 +3,8 @@ import './Home.css'
 import Layout from '../../components/Layout/Layout'
 import { Link } from 'react-router-dom'
 import FeaturedCarousel from '../../components/Carousel/Carousel' 
+import FeaturedCarousel2 from '../../components/Carousel2/Carousel2' 
+import FeaturedCarousel3 from '../../components/Carousel3/Carousel3' 
 
 export default function Home(props) {
   return (
@@ -21,11 +23,9 @@ export default function Home(props) {
           <div className='carousel1'>
             <FeaturedCarousel /> 
           </div>
-
-          <FeaturedCarousel />
-
+            <FeaturedCarousel2 />
           <div className='carousel3'>
-            <FeaturedCarousel /> 
+            <FeaturedCarousel3 /> 
           </div>
         </div>
 
