@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
+
+.input-section {
+  display: flex;
+  margin: 40px;
+  height: 80px;
+  width: 90%;
+  justify-content: flex-end;
+}
+.prompt {
+  display: flex;
+  margin: 0 80px;
+  font-size: 36px;
+  font-family: "Hanuman", serif;
+  text-align: left;
+  justify-self: flex-start;
+}
+.input {
+  display: flex;
+  width: 690px;
+  height: 50px;
+  background: #c4c4c4;
+  font-size: 30px;
+  font-family: "Hanuman", serif;
+  text-align: left;
+  filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
+}
+
+.submit {
+  justify-self: right;
+  font-family: "Indie Flower", cursive;
+  background: #c4c4c4;
+  width: 180px;
+  height: 72px;
+  font-size: 36px;
+  font-weight: bold;
+  filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
+}

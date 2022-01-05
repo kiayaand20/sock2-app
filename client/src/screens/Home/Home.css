@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap');
+
+.logo-small {
+  color: #007c4a;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Hanuman', serif;
+  padding-top: 30px;
+  padding-left: 13px;
+}
+
+.home-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Hanuman', serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px;
+  width: 45%;
+  margin: 0px auto;
+  border-bottom: solid #00b47b;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+  font-family: 'Hanuman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-imgs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.view-btn {
+  text-decoration: none;
+  font-family: 'Hanuman', serif;
+  background: white;
+  height: 40px;
+  font-size: 18px;
+  color: black;
+  border: solid #007c4a;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.explore {
+  font-family: 'Hanuman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.dot1 {
+  height: 250px;
+  width: 250px;
+  background-color: #007c4a;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 250px;
+  width: 250px;
+  background-color: #f0d163;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 250px;
+  width: 250px;
+  background-color: #6985eb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.quizzes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.quiz {
+  padding-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-family: 'Hanuman', serif;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  font-family: 'Hanuman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.review-pics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review-pics2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review1,
+.review2,
+.review3,
+.review4 {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.review1,
+.review2,
+.review3,
+.review4 {
+  padding-bottom: 50px;
+}
+
+.carousel1 {
+  padding-right: 30px;
+}
+
+.carousel3 {
+  padding-left: 30px;
+}

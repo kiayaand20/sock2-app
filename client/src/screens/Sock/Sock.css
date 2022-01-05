@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
+
+.sock-detail {
+  display: flex;
+  padding: 120px;
+  padding-top: 80px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+.sock-name {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font-family: "Hanuman", serif;
+}
+
+.price {
+  font-size: 35px;
+}
+
+.description {
+  padding-top: 40px;
+  letter-spacing: 0.9px;
+  font-family: "Hanuman", serif;
+  font-size: 24px;
+}
+
+.sock1 {
+  padding-top: 25px;
+}
+
+.sock1,
+.sock2 {
+  font-family: "Hanuman", serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.sock2 {
+  padding-bottom: 130px;
+}
+
+.sock-detail-image {
+  width: 500px;
+  padding: 0 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  background: #c4c4c4;
+  height: 40px;
+  width: 20%;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.edit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  background: #c4c4c4;
+  height: 40px;
+  width: 20%;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-link {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .name {
+    font-size: 32px;
+  }
+  .sock-detail-image {
+    width: 500px;
+    margin-top: -40px;
+    padding: 10px;
+  }
+  .sock-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .sock-detail-image {
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+  }
+  .sock-detail {
+    padding: 0px;
+    padding-top: 120px;
+  }
+  .button-container {
+    padding: 20px;
+    padding-bottom: 80px;
+  }
+  .edit-button,
+  .delete-button {
+    width: 40%;
+  }
+}

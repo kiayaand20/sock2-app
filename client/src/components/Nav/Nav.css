@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
+
+nav {
+  position: relative;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -35px;
+  box-shadow: 1px 1px 1px 0.3px #cecece;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-family: "Indie Flower", cursive;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  letter-spacing: 1px;
+  flex: 1;
+  max-width: 30vw;
+  color: #007c4a;
+}
+
+.links {
+  display: flex;
+  font-family: "Hanuman", serif;
+  margin: 30px;
+  justify-content: space-between;
+  align-content: flex-end;
+  font-size: 18px;
+  width: 55%;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.link-welcome {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
