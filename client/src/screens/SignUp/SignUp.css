@@ -6,7 +6,7 @@
   display: flex;
   margin-top: 50px;
 }
-/* 
+
 button {
   justify-self: right;
   font-family: 'Indie Flower', cursive;
@@ -17,7 +17,7 @@ button {
   font-weight: bold;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
   margin-top: 15px;
-} */
+}
 
 .input {
   display: flex;
