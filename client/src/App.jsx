@@ -27,14 +27,14 @@ function App() {
     <div className='body'>
       <Routes>
         <Route path='/' element={<Home user={user} />} />
-        <Route path='/about-us' element={<AboutUs />} />
-        <Route path='/socks' element={<AllSocks />} />
-        <Route path='/new-arrivals' element={<AddSock />} />
+        <Route path='/about-us' element={<AboutUs user={user}/>} />
+        <Route path='/socks' element={<AllSocks user={user}/>} />
+        <Route path='/new-arrivals' element={<AddSock user={user}/>} />
         <Route path='/socks/:id/edit' element={<SockEdit/>} />
-        <Route path='/socks/:id' element={<Sock />} />
-        <Route path='/sign-up' element={<SignUp />} />
-        <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-out' element={<SignOut setUser={setUser}/>} />
+        <Route path='/socks/:id' element={<Sock user={user}/>} />
+        <Route path='/sign-up' element={<SignUp setUser={setUser} />} />
+        <Route path='/sign-in' element={<SignIn setUser={setUser}/>}/>
       </Routes>
     </div>
   )
