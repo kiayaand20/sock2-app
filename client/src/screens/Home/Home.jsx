@@ -2,8 +2,7 @@ import React from 'react'
 import './Home.css'
 import Layout from '../../components/Layout/Layout'
 import { Link } from 'react-router-dom'
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+import FeaturedCarousel from '../../components/Carousel/Carousel' 
 
 export default function Home(props) {
   return (
@@ -17,22 +16,23 @@ export default function Home(props) {
           to any outfit.</div>
         
         <h2 className='featured'>Featured Designs</h2>
-       
-        <div className='featured-imgs'>
+        
+        <div className='carousel'>
+          <FeaturedCarousel />
+        </div>
+        {/* <div className='featured-imgs'>
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200910/project3/Sock2%20Photos/07a_rpegfu.jpg" alt="icecream-sock" width="320" height="315"/>
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200926/project3/Sock2%20Photos/12-2_cnoasf.jpg" alt="resonance-sock" width="320" height="315"/>
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1640200916/project3/Sock2%20Photos/06B_j6tgf8.jpg" alt="pushit-sock" width="320" height="315"/>
-        </div>
+        </div> */}
 
-        <div className='view-btn'>
+        <div className='btn'>
           <Link to={`/socks`}>
-            <Stack spacing={2} direction="row">
-              <Button variant="outlined" >View All Socks</Button>
-            </Stack>
+            <button className='view-btn' style={{textDecoration: "none"}}>View All Socks</button>
           </Link>
         </div>
 
-        <h2 className='explore'>More to Explore</h2>
+       <h2 className='explore'>More to Explore</h2>
 
        <div className='quizzes'>
         <div className='dot1'>
@@ -57,7 +57,9 @@ export default function Home(props) {
             Curious how to style colorful socks? Let's find out! </a>
           </div>
           </div>
-          </div>
+        </div>
+        
+        <h2 className='reviews'>Popular Reviews</h2>
       </Layout>
     </div>
   )

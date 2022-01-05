@@ -2,7 +2,7 @@
 
 .logo-small {
   color: #007c4a;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Hanuman', serif;
   padding-top: 30px;
@@ -24,10 +24,17 @@
 }
 
 .featured {
+  display: flex;
+  justify-content: center;
   font-family: 'Hanuman', serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   padding-top: 15px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
 }
 
 .featured-imgs {
@@ -37,15 +44,29 @@
   margin-bottom: 45px;
 }
 
-.view-btn {
+.btn {
   display: flex;
   justify-self: center;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.view-btn {
+  text-decoration: none;
+  font-family: 'Hanuman', serif;
+  background: white;
+  height: 40px;
+  font-size: 18px;
+  color: black;
+  border: solid #007c4a;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .explore {
   font-family: 'Hanuman', serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -77,10 +98,20 @@
 .quizzes {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .quiz1 {
   padding-top: 100px;
   font-weight: bold;
   font-family: 'Hanuman', serif;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  font-family: 'Hanuman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 25px;
 }
