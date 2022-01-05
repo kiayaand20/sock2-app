@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 
@@ -103,6 +103,8 @@
 
 .quiz {
   padding-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-weight: bold;
   font-family: "Hanuman", serif;
 }
@@ -132,12 +134,21 @@
 .review2,
 .review3,
 .review4 {
-  padding-right: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .review1,
 .review2,
 .review3,
 .review4 {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.carousel1 {
+  padding-right: 30px;
+}
+
+.carousel3 {
+  padding-left: 30px;
 }

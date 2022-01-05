@@ -18,7 +18,15 @@ export default function Home(props) {
         <h2 className='featured'>Featured Designs</h2>
         
         <div className='carousel'>
+          <div className='carousel1'>
+            <FeaturedCarousel /> 
+          </div>
+
           <FeaturedCarousel />
+
+          <div className='carousel3'>
+            <FeaturedCarousel /> 
+          </div>
         </div>
 
         <div className='btn'>
