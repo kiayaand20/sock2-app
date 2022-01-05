@@ -32,7 +32,7 @@ export default function Nav({ user }) {
       <div className='nav'>
         <NavLink className="logo" to="/">Sock²</NavLink>
         <div className="links">
-          {user && <div className="link welcome">Welcome, {user.username}</div>}
+          {user && <div className="link-welcome">Welcome, {user.username}!</div>}
           {alwaysRender}
           {user ? authenticated : unauthenticated}
         </div>

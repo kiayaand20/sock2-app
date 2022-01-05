@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
 
 nav {
-  /* flex: 1; */
   position: relative;
   width: 100%;
-  /* z-index: 1; */
-  /* top: 0; */
-  /* left: 0; */
 }
 
 .nav {
@@ -23,7 +19,7 @@ nav {
   display: flex;
   padding-top: 20px;
   padding-left: 15px;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -36,17 +32,30 @@ nav {
 
 .links {
   display: flex;
-  font-family: 'Hanuman', serif;
-  margin: 20px;
+  font-family: "Hanuman", serif;
+  margin: 30px;
   justify-content: space-between;
   align-content: flex-end;
   font-size: 18px;
-  width: 40%;
+  width: 55%;
 }
 
 .nav-link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 35px;
   text-decoration: none;
   color: black;
-  font-size: 28px;
+  font-size: 20px;
+}
+
+.link-welcome {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
