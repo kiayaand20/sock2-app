@@ -44,72 +44,74 @@ export default function SockEdit(props) {
 
   return (
     <Layout user={props.user}>
-      <form onSubmit={handleSubmit}>
-        <div className='input-section'>
-          <h3 className='prompt'> Product Name:</h3>
-          <input
-            className='input'
-            value={product.name}
-            name='name'
-            required
-            autoFocus
-            onChange={handleChange}
-          />
-        </div>
-        <div className='input-section'>
-          <h3 className='prompt'> Product Price:</h3>
-          <input
-            className='input'
-            value={product.price}
-            name='price'
-            required
-            onChange={handleChange}
-          />
-        </div>
+      <div className='edit-form'>
+        <form onSubmit={handleSubmit}>
+          <div className='input-section'>
+            <label className='label'> Product Name:</label>
+            <input
+              className='input'
+              value={product.name}
+              name='name'
+              required
+              autoFocus
+              onChange={handleChange}
+            />
+          </div>
+          <div className='input-section'>
+            <label className='label'> Product Price:</label>
+            <input
+              className='input'
+              value={product.price}
+              name='price'
+              required
+              onChange={handleChange}
+            />
+          </div>
 
-        <div className='input-section'>
-          <h3 className='prompt'> Product Description:</h3>
-          <input
-            className='input'
-            rows={10}
-            value={product.description}
-            name='description'
-            required
-            onChange={handleChange}
-          />
-        </div>
-        <div className='input-section'>
-          <h3 className='prompt'> Image URL:</h3>
-          <input
-            className='input'
-            value={product.imgURL}
-            name='imgURL'
-            required
-            onChange={handleChange}
-          />
-        </div>
-        <div className='input-section'>
-          <h3 className='prompt'> Sock 1:</h3>
-          <input
-            className='input'
-            value={product.sock1}
-            name='sock1'
-            required
-            onChange={handleChange}
-          />
-        </div>
-        <div className='input-section'>
-          <h3 className='prompt'> Sock 2:</h3>
-          <input
-            className='input'
-            value={product.sock2}
-            name='sock2'
-            required
-            onChange={handleChange}
-          />
-        </div>
-        <button className='submit' type='submit'>Submit</button>
-      </form>
+          <div className='input-section'>
+            <h3 className='prompt'> Product Description:</h3>
+            <input
+              className='input'
+              rows={10}
+              value={product.description}
+              name='description'
+              required
+              onChange={handleChange}
+            />
+          </div>
+          <div className='input-section'>
+            <h3 className='prompt'> Image URL:</h3>
+            <input
+              className='input'
+              value={product.imgURL}
+              name='imgURL'
+              required
+              onChange={handleChange}
+            />
+          </div>
+          <div className='input-section'>
+            <h3 className='prompt'> Sock 1:</h3>
+            <input
+              className='input'
+              value={product.sock1}
+              name='sock1'
+              required
+              onChange={handleChange}
+            />
+          </div>
+          <div className='input-section'>
+            <h3 className='prompt'> Sock 2:</h3>
+            <input
+              className='input'
+              value={product.sock2}
+              name='sock2'
+              required
+              onChange={handleChange}
+            />
+          </div>
+          <button className='submit' type='submit'>Submit</button>
+        </form>
+      </div>
     </Layout>
 
   )

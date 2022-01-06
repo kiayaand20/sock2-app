@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
 
 .form-container {
   display: flex;
   margin-top: 30px;
 }
-
 
 .sign-up-title {
   font-size: 60px;
@@ -15,7 +14,7 @@
 
 .sign-up-btn {
   justify-self: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   background: #c4c4c4;
   width: 180px;
   height: 72px;
@@ -31,7 +30,7 @@
   height: 50px;
   background: #c4c4c4;
   font-size: 20px;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   text-align: left;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
   margin-bottom: 15px;
@@ -42,16 +41,15 @@
   display: flex;
   text-align: left;
   justify-content: flex-start;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   font-size: 24px;
   padding-bottom: 15px;
   padding-top: 20px;
 }
 .call-to-action {
-  /* display: flex; */
   margin: 0 80px;
   font-size: 36px;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   text-align: left;
   justify-self: flex-start;
   padding-left: 50px;
@@ -68,11 +66,73 @@ p {
   padding-right: 60px;
   padding-top: 50px;
 }
-/* .call-to-action-p {
-  display: flex;
-  margin: 0 80px;
-  font-size: 36px;
-  font-family: "Hanuman", serif;
-  text-align: center;
-  justify-self: baseline;
-} */
+
+@media (max-width: 1024px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .sign-up-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .call-to-action-p {
+    text-align: center;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .sign-up-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .sign-up-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    padding-right: 50px;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    padding: none;
+  }
+  .input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding: none;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .sign-up-btn {
+    height: 45px;
+    font-size: 24px;
+  }
+  .sign-up-img {
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+  }
+}

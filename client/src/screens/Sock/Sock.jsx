@@ -44,8 +44,7 @@ export default function Sock(props) {
               </button>
             </Link>
             <Link className='delete-button' to={'/'}>
-              <button
-                className='delete-button'
+              <button className='delete-button'
                 onClick={() => deleteSock(sock._id)}
               >
                 Delete
