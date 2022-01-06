@@ -1,5 +1,6 @@
 .header-img {
   height: 50px;
   overflow: hidden;
+  /* position: fixed; */
   margin: 0;
 }

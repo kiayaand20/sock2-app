@@ -8,7 +8,7 @@ import FeaturedCarousel3 from '../../components/Carousel3/Carousel3'
 
 export default function Home(props) {
   return (
-    <div>
+    <div className='home-div'>
       <Layout user={props.user}>
       <div className='logo-small'>Funky, Creative, Stylish.</div>
 
