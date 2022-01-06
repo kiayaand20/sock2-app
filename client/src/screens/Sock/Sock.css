@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
 
 .sock-detail {
   display: flex;
@@ -20,7 +20,7 @@
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.2;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
 }
 
 .price {
@@ -30,7 +30,7 @@
 .description {
   padding-top: 40px;
   letter-spacing: 0.9px;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   font-size: 24px;
 }
 
@@ -40,7 +40,7 @@
 
 .sock1,
 .sock2 {
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   font-style: italic;
   font-size: 16px;
 }
@@ -64,13 +64,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Indie Flower', cursive;
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
   background: #c4c4c4;
   height: 40px;
-  width: 80%;
+  width: 150px;
   font-size: 24px;
   font-weight: bold;
-  text-decoration: none;
   color: black;
   border: none;
   cursor: pointer;
@@ -79,10 +79,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   background: #c4c4c4;
   height: 40px;
-  width: 40%;
+  width: 150px;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -95,9 +95,10 @@
   color: white;
 }
 
-@media (max-width: 1024px) {
-  .name {
-    font-size: 32px;
+@media (max-width: 1200px) {
+  .sock-name {
+    font-size: 40px;
+    padding-top: 20px;
   }
   .sock-detail-image {
     width: 500px;
@@ -110,17 +111,21 @@
     justify-content: center;
     align-items: center;
   }
+  .price {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 800px) {
   .sock-detail-image {
     width: 300px;
+    height: 300px;
     margin: 15px;
-    padding: 10px;
+    padding: 5px;
   }
   .sock-detail {
     padding: 0px;
-    padding-top: 120px;
+    padding-top: 50px;
   }
   .button-container {
     padding: 20px;
@@ -128,6 +133,18 @@
   }
   .edit-button,
   .delete-button {
-    width: 40%;
+    width: 90px;
+  }
+  .sock-name {
+    font-size: 40px;
+  }
+  .price {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .sock2 {
+    padding-bottom: 50px;
   }
 }
