@@ -2,25 +2,26 @@ import { useState, useEffect } from 'react'
 import './Sock.css'
 import Layout from '../../components/Layout/Layout'
 import { Link, useParams } from 'react-router-dom'
-import {getSock, deleteSock } from '../../services/socks'
+import { getSock, deleteSock } from '../../services/socks'
 
 export default function Sock(props) {
   const [sock, setSock] = useState(null)
   const [isLoaded, setLoaded] = useState(false)
-    const { id } = useParams()
-  
-    useEffect(() => {
-      const fetchSock = async () => {
-        const sock = await getSock(id)
-        setSock(sock)
-        setLoaded(true)
-      }
-      fetchSock()
-    }, [id])
-  
-    if (!isLoaded) {
-      return <h1>Loading...</h1>
+  const { id } = useParams()
+
+  useEffect(() => {
+    const fetchSock = async () => {
+      const sock = await getSock(id)
+      setSock(sock)
+      setLoaded(true)
     }
+    
+    fetchSock()
+  }, [id])
+
+  if (!isLoaded) {
+    return <h1>Loading...</h1>
+  }
   
     return (
       <Layout user={props.user}>
@@ -50,9 +51,9 @@ export default function Sock(props) {
                     Delete
                 </button>
               </Link>
-            </div>
           </div>
         </div>
-      </Layout>
-    )
-  }
+      </div>
+    </Layout>
+  )
+}

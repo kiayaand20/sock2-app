@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap');
 
 .sock-detail {
   display: flex;
@@ -11,6 +11,8 @@
   display: flex;
   flex-direction: column;
   line-height: 1.6;
+  max-width: 70vw;
+  min-width: 50vw;
 }
 
 .sock-name {
@@ -18,7 +20,7 @@
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.2;
-  font-family: "Hanuman", serif;
+  font-family: 'Hanuman', serif;
 }
 
 .price {
@@ -28,7 +30,7 @@
 .description {
   padding-top: 40px;
   letter-spacing: 0.9px;
-  font-family: "Hanuman", serif;
+  font-family: 'Hanuman', serif;
   font-size: 24px;
 }
 
@@ -38,7 +40,7 @@
 
 .sock1,
 .sock2 {
-  font-family: "Hanuman", serif;
+  font-family: 'Hanuman', serif;
   font-style: italic;
   font-size: 16px;
 }
@@ -49,6 +51,7 @@
 
 .sock-detail-image {
   width: 500px;
+  height: 500px;
   padding: 0 40px;
 }
 
@@ -61,7 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   background: #c4c4c4;
   height: 40px;
   width: 80%;
@@ -76,7 +79,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   background: #c4c4c4;
   height: 40px;
   width: 40%;
