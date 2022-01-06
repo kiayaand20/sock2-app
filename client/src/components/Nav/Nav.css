@@ -9,7 +9,7 @@ nav {
 .nav {
   display: flex;
   margin-left: -2px;
-  margin-right: -2px;
+  /* margin-right: -2px; */
   margin-top: -60px;
   box-shadow: 1px 1px 1px 0.3px #cecece;
   width: 100%;
@@ -34,15 +34,15 @@ nav {
 .links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   font-family: "Hanuman", serif;
-  /* margin-top: 20px; */
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  justify-content: space-between;
+  /* margin-left: 10px; */
+  /* margin-right: 5px; */
   align-content: flex-end;
+  /* padding-left: 10px; */
   font-size: 18px;
-  width: 55%;
+  width: 35%;
 }
 
 .nav-link {
