@@ -42,7 +42,7 @@ function FeaturedCarousel2() {
         sx={{
           display: "flex",
           alignItems: "center",
-          height: 50,
+          height: 0,
           pl: 10,
           bgcolor: "background.default"
         }}
