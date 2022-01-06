@@ -38,16 +38,18 @@ export default function Sock(props) {
             <div className='sock2'>Sock 2: {sock.sock2}</div>
             <div className='button-container'>
               <Link className='edit-button' to={`/socks/${sock._id}/edit`}>
-                Edit
-              </Link>
-              <Link to={'/socks'}>
-              <button
-                className='delete-button'
-                onClick={() => deleteSock(sock._id)}
-              >
-                Delete
+                <button className='edit-button'>
+                  Edit
                 </button>
-                </Link>
+              </Link>
+              <Link to={'/'}>
+                <button
+                  className='delete-button'
+                  onClick={() => deleteSock(sock._id)}
+                >
+                    Delete
+                </button>
+              </Link>
             </div>
           </div>
         </div>
