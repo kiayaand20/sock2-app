@@ -36,6 +36,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  z-index: -10;
 }
 
 .featured-imgs {
@@ -43,7 +44,8 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 45px;
-}
+  z-index: -12;
+  }
 
 .btn {
   display: flex;
