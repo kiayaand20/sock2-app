@@ -2,29 +2,30 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
 
+.add-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .input-section {
   display: flex;
   margin: 40px;
   height: 80px;
   width: 90%;
   justify-content: flex-end;
+  align-content: flex-start;
+  flex-flow: column;
 }
-.prompt {
-  display: flex;
-  margin: 0 80px;
-  font-size: 36px;
-  font-family: "Hanuman", serif;
-  text-align: left;
-  justify-self: flex-start;
-}
+
 .input {
   display: flex;
   width: 690px;
-  height: 50px;
+  height: 70px;
   background: #c4c4c4;
-  font-size: 30px;
+  font-size: 24px;
   font-family: "Hanuman", serif;
-  text-align: left;
+  text-align: center;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
 }
 
@@ -37,4 +38,8 @@
   font-size: 36px;
   font-weight: bold;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
+}
+
+.label {
+  font-weight: bold;
 }

@@ -44,7 +44,7 @@ export default function SockEdit(props) {
 
   return (
     <Layout user={props.user}>
-      <div className='form'>
+      <div className='edit-form'>
         <form onSubmit={handleSubmit}>
           <div className='input-section'>
             <label className='label'> Product Name:</label>
