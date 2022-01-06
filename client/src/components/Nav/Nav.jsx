@@ -37,6 +37,8 @@ export default function Nav({ user }) {
           {user ? authenticated : unauthenticated}
         </div>
       </div>
+
+
     </nav>
   )
 }
