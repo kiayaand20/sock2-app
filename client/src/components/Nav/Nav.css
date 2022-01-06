@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Indie+Flower&family=Voces&display=swap");
 
 nav {
-  position: relative;
+  position: fixed;
   width: 100%;
+  background-color: chartreuse;
 }
 
 .nav {
