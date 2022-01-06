@@ -27,6 +27,17 @@ const unauthenticated = (
 
 
 export default function Nav({ user }) {
+
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-menu");
+
+  hamburger.addEventListener("click", mobileMenu);
+
+  function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  }
+
   return (
     <nav>
       <div className='nav'>
@@ -35,6 +46,11 @@ export default function Nav({ user }) {
           {user && <div className="link-welcome">Welcome, {user.username}!</div>}
           {alwaysRender}
           {user ? authenticated : unauthenticated}
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </div>
 
