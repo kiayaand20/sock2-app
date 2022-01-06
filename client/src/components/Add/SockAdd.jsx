@@ -33,9 +33,10 @@ const SockAdd = (props) => {
 
   return (
     <Layout user={props.user}>
+      <div className='add-form'>
       <form onSubmit={handleSubmit}>
         <div className='input-section'>
-          <h3 className='prompt'> Product Name:</h3>
+        <label className='label'>Product Name:</label>
           <input
             className='input'
             value={product.name}
@@ -46,7 +47,7 @@ const SockAdd = (props) => {
           />
         </div>
         <div className='input-section'>
-          <h3 className='prompt'> Product Price:</h3>
+        <label className='label'> Product Price:</label>
           <input
             className='input'
             value={product.price}
@@ -57,7 +58,7 @@ const SockAdd = (props) => {
         </div>
 
         <div className='input-section'>
-          <h3 className='prompt'> Product Description:</h3>
+        <label className='label'> Product Description:</label>
           <input
             className='input'
             rows={10}
@@ -68,7 +69,7 @@ const SockAdd = (props) => {
           />
         </div>
         <div className='input-section'>
-          <h3 className='prompt'> Image URL:</h3>
+        <label className='label'>Image URL:</label>
           <input
             className='input'
             value={product.imgURL}
@@ -78,7 +79,7 @@ const SockAdd = (props) => {
           />
         </div>
         <div className='input-section'>
-          <h3 className='prompt'> Sock 1:</h3>
+        <label className='label'> Sock 1:</label>
           <input
             className='input'
             value={product.sock1}
@@ -88,7 +89,7 @@ const SockAdd = (props) => {
           />
         </div>
         <div className='input-section'>
-          <h3 className='prompt'> Sock 2:</h3>
+        <label className='label'> Sock 2:</label>
           <input
             className='input'
             value={product.sock2}
@@ -98,7 +99,8 @@ const SockAdd = (props) => {
           />
         </div>
         <button className='submit' type='submit'>Submit</button>
-      </form>
+        </form>
+        </div>
     </Layout>
   )
 }

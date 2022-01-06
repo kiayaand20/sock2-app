@@ -15,7 +15,7 @@ const SockCards = () => {
   }, [])
 
   const CARDS = socks.map((sock, index) =>
-      index < 12 ? (
+      index < 120 ? (
         <SockCard
           _id={sock._id}
           name={sock.name}

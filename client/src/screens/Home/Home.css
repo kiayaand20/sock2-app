@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Voces&display=swap");
 
 .logo-small {
   color: #007c4a;
   font-size: 40px;
   font-weight: bold;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   padding-top: 30px;
   padding-left: 13px;
 }
@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   font-size: 24px;
   font-weight: 400;
   padding: 20px;
@@ -26,7 +26,7 @@
 .featured {
   display: flex;
   justify-content: center;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   font-size: 30px;
   font-weight: bold;
   padding-top: 15px;
@@ -36,6 +36,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  z-index: -10;
 }
 
 .featured-imgs {
@@ -43,7 +44,8 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 45px;
-}
+  z-index: -12;
+  }
 
 .btn {
   display: flex;
@@ -55,7 +57,7 @@
 
 .view-btn {
   text-decoration: none;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   background: white;
   height: 40px;
   font-size: 18px;
@@ -66,7 +68,7 @@
 }
 
 .explore {
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   font-size: 30px;
   font-weight: bold;
   padding-top: 15px;
@@ -107,13 +109,13 @@
   padding-left: 15px;
   padding-right: 15px;
   font-weight: bold;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
 }
 
 .reviews {
   display: flex;
   justify-content: center;
-  font-family: 'Hanuman', serif;
+  font-family: "Hanuman", serif;
   font-size: 30px;
   font-weight: bold;
   padding-top: 25px;

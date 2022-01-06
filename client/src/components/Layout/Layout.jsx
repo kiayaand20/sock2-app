@@ -7,8 +7,10 @@ import Nav from '../Nav/Nav'
 export default function Layout(props) {
   return (
     <div className='layout'>
-      <Header />
+      <div className='header-nav'>
+        <Header />
       <Nav user={props.user} />
+      </div>
       <div className='layout-children'>{props.children}</div>
       <Footer />
     </div>
