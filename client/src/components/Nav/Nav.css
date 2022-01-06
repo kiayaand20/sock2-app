@@ -17,7 +17,7 @@ nav {
 
 .logo {
   display: flex;
-  padding-top: 45px;
+  padding-top: 55px;
   padding-left: 15px;
   font-family: 'Indie Flower', cursive;
   text-decoration: none;
@@ -34,10 +34,10 @@ nav {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Hanuman', serif;
-  /* margin-top: 20px; */
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  padding-right: 15px;
   justify-content: space-between;
   align-content: flex-end;
   font-size: 18px;
