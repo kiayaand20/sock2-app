@@ -28,6 +28,7 @@
   font-family: "Hanuman", serif;
   text-align: left;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
+  padding-left: 5px;
 }
 
 .signinsubmit {
