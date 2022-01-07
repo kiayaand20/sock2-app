@@ -194,9 +194,3 @@
     font-size: 18px;
   }
 }
-
-@media (max-width: 769px) {
-  .layout-children {
-    padding-top: 250px;
-  }
-}
