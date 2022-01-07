@@ -37,44 +37,47 @@ export default function Home(props) {
 
        <h2 className='explore'>More to Explore</h2>
 
-       <div className='quizzes'>
-        <div className='dot1'>
-          <div className='quiz'>
-            <a href="https://sayitwithasock.com/blogs/sock/13-random-fun-and-useless-facts-about-socks" style={{  textDecoration: 'none', color: 'black' }}>
-              13 Random, Fun, and Useless Facts About Socks 
-            </a>
-          </div>
-        </div>
-        
-        <div className='dot2'>
-          <div className='quiz'>
-            <a href="https://www.buzzfeed.com/tough_tootin_baby/which-type-of-socks-matches-your-personality-desi-9m1v9cy5tz" style={{ textDecoration: 'none', color: 'black' }}>
-            What type of Socks are you? <br /> Take the Quiz!
-            </a>
-          </div>
-        </div>
+      <div className='quizzes'>
 
-        <div className='dot3'>
-          <div className='quiz'>
-            <a href="https://mysocietysocks.com/blogs/news/how-to-wear-colorful-socks" style={{  textDecoration: 'none', color: 'black' }}>
-            Curious how to style colorful socks? Let's find out! </a>
+        <a href="https://sayitwithasock.com/blogs/sock/13-random-fun-and-useless-facts-about-socks" style={{  textDecoration: 'none', color: 'black' }}> 
+          <div className='dot1'>
+            <div className='quiz'>
+              13 Random, Fun, and Useless Facts About Socks 
+            </div>
           </div>
-          </div>
-        </div>
+        </a>
         
+        <a href="https://www.buzzfeed.com/tough_tootin_baby/which-type-of-socks-matches-your-personality-desi-9m1v9cy5tz" style={{ textDecoration: 'none', color: 'black' }}>
+          <div className='dot2'>
+            <div className='quiz'>
+              What type of Socks are you? <br /> Take the Quiz!
+            </div>
+          </div>
+        </a>
+
+        <a href="https://mysocietysocks.com/blogs/news/how-to-wear-colorful-socks" style={{  textDecoration: 'none', color: 'black' }}>
+          <div className='dot3'>
+            <div className='quiz'>
+              Curious how to style colorful socks? Let's find out! 
+            </div>
+          </div>
+        </a>
+          
+      </div>
+
         <h2 className='reviews'>Popular Reviews</h2>
 
         <div className='review-pics'>
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1641399554/project3/Beige_Product_Review_Fashion_Instagram_Post_sapvtw.png"
-            alt="review 1" width="450" height="410" className='review1'/>
+            alt="review 1" width="450" height="410px" className='review1'/>
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1641399555/project3/Beige_Product_Review_Fashion_Instagram_Post_1_lu1s9x.png"
-            alt="review 2"  width="450" height="410" className='review2'/>
+            alt="review 2"  width="450" height="410px" className='review2'/>
         </div>
         <div className='review-pics2'>
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1641400920/project3/Beige_Product_Review_Fashion_Instagram_Post_2_hz3c8v.png"
-            alt="review 3" width="450" height="410" className='review3' />
+            alt="review 3" width="450" height="410px" className='review3' />
           <img src="https://res.cloudinary.com/kacloud20/image/upload/v1641403320/project3/Beige_Product_Review_Fashion_Instagram_Post_4_yjmhpu.png"
-            alt="review 4"  width="450" height="410" className='review4'/>
+            alt="review 4" width="450" height="410px"  className='review4'/>
         </div>
       </Layout>
     </div>
