@@ -1,18 +1,18 @@
 # SockSquared Overview
 
-<h1>Sock²</h1>
+[<h1>Sock²</h1>](https://socksquared.netlify.app)
 
 ## Description
 
-Sock² is an online shopping app that features creative design socks. Users will be able to create an account, browse through all sock inventory, view specific sock details and add individual socks to their personal shopping cart. Similarly, the app will have the functionality of adding, editing, and deleting a sock. The newly added socks will be included on the details(listing) page.
+Sock² is an online shopping app that features creative design socks. Users will be able to create an account, browse through all sock inventory, view specific sock details and add individual socks to their personal shopping cart. Similarly, the app will have the functionality of adding, editing, and deleting a sock. The newly added socks will be included on the new arrivals page.
+
+App url: https://socksquared.netlify.app
 
 ## Wireframes
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640190453/project3/home_f5oljf.png)
+![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1641570515/project3/image_kxrd1y.png)
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202424/project3/allpages_jimois.png)
-
-Figma url: https://www.figma.com/file/IYDUnaxLcvPSxfahnwYns5/Nitesh-Misra's-team-library?node-id=0%3A1
+Figma url: https://www.figma.com/file/IYDUnaxLcvPSxfahnwYns5/Sock%5E2?node-id=433%3A133
 
 ## Schema
 
@@ -45,7 +45,7 @@ Sock Details:
 
 ## Whimsical Flowchart
 
-![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1640202336/project3/Sock_2_Flow_Chart_1_vfcrcz.png)
+![wireframe](https://res.cloudinary.com/kacloud20/image/upload/v1641568880/project3/Sock_2_Flow_Chart_2_dtbww4.png)
 
 ## MVP
 
@@ -67,6 +67,7 @@ Server (Backend):
 ## Post-MVP
 
 - Create fully functional shopping cart
+- Sort feature by price
 
 ## Team Expectations
 
