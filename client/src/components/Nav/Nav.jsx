@@ -31,8 +31,8 @@ export default function Nav({ user }) {
     <nav>
       <div className='nav'>
         <NavLink className="logo" to="/">Sock²</NavLink>
-        <div className="links">
           {user && <div className="link-welcome">Welcome, {user.username}!</div>}
+        <div className="links">
           {alwaysRender}
           {user ? authenticated : unauthenticated}
         </div>
