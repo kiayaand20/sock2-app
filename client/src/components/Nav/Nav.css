@@ -36,13 +36,15 @@ nav {
   justify-content: space-evenly;
   font-family: 'Hanuman', serif;
   margin-bottom: 20px;
+  font-family: 'Hanuman', serif;
+  margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
   padding-right: 15px;
   justify-content: space-between;
   align-content: flex-end;
   font-size: 18px;
-  width: 35%;
+  width: 55%;
 }
 
 .nav-link {
@@ -53,6 +55,9 @@ nav {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+.nav-link:hover {
+  color: #00b47b;
 }
 
 .link-welcome {
@@ -65,8 +70,91 @@ nav {
   font-size: 20px;
 }
 
-@media (max-width: 1155) {
+.curtain {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .links {
+    display: none;
+  }
+
+  .curtain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: 'Hanuman', serif;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    align-content: flex-end;
+    font-size: 18px;
+    width: 55%;
+  }
+
+  .curtainBtn {
+    display: flex;
+    /* position: absolute;
+      right: 5%;
+      top: 30px; */
+    margin-top: 35px;
+    background: none;
+    border: none;
+    font-family: 'Hanuman', serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .overlay {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.85);
+    overflow-y: hidden;
+    transition: 0.7s;
+  }
+
+  .overlayBtn {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    background: none;
+    border: none;
+    font-family: 'Hanuman', serif;
+    font-size: 30px;
+    color: white;
+  }
+
+  .overlay-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10%;
+  }
   .nav-link {
-    background-color: red;
+    color: white;
+    margin: 40px;
+    justify-content: center;
+    font-size: 30px;
+    width: 40%;
+  }
+
+  .overlayBtn:hover,
+  .nav-link:hover {
+    color: #00b47b;
+  }
+}
+
+@media (max-width: 425px) {
+  .link-welcome {
+    display: none;
   }
 }
