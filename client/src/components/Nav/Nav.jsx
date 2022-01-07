@@ -44,7 +44,7 @@ export default function Nav({ user }) {
           {alwaysRender}
           {user ? authenticated : unauthenticated}
         </div>
-        {/* responsive - dropdown */}
+
         <div className="curtain">
           {user && <div className="link-welcome">Welcome, {user.username}!</div>}
           <button className='curtainBtn' onClick={toggleMenu}> Menu </button>
