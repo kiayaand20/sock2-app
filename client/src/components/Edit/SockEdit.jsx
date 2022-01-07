@@ -69,7 +69,7 @@ export default function SockEdit(props) {
           </div>
 
           <div className='input-section'>
-            <h3 className='prompt'> Product Description:</h3>
+            <label className='label'> Product Description:</label>
             <input
               className='input'
               rows={10}
@@ -80,7 +80,7 @@ export default function SockEdit(props) {
             />
           </div>
           <div className='input-section'>
-            <h3 className='prompt'> Image URL:</h3>
+            <label className='label'> Image URL:</label>
             <input
               className='input'
               value={product.imgURL}
@@ -90,7 +90,7 @@ export default function SockEdit(props) {
             />
           </div>
           <div className='input-section'>
-            <h3 className='prompt'> Sock 1:</h3>
+            <label className='label'> Sock 1:</label>
             <input
               className='input'
               value={product.sock1}
@@ -100,7 +100,7 @@ export default function SockEdit(props) {
             />
           </div>
           <div className='input-section'>
-            <h3 className='prompt'> Sock 2:</h3>
+            <label className='label'> Sock 2:</label>
             <input
               className='input'
               value={product.sock2}
