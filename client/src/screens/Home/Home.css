@@ -162,3 +162,35 @@
 .carousel3 {
   padding-left: 30px;
 }
+
+@media (max-width: 800px) {
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: -10;
+    padding-left: 35px;
+  }
+  .carousel3 {
+    padding-left: 0px;
+  }
+  .review1,
+  .review2,
+  .review3,
+  .review4 {
+    width: 240px;
+    height: 240px;
+  }
+  .reviews,
+  .featured,
+  .explore {
+    font-size: 36px;
+  }
+  .logo-small {
+    font-size: 36px;
+  }
+  .home-intro {
+    font-size: 18px;
+  }
+}
