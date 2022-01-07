@@ -42,12 +42,12 @@ function FeaturedCarousel3() {
         sx={{
           display: "flex",
           alignItems: "center",
-          height: 50,
+          height: 0,
           pl: 10,
           bgcolor: "background.default"
         }}
       >
-        <Typography>{images[activeStep].label}</Typography>
+        {/* <Typography>{images[activeStep].label}</Typography> */}
       </Paper>
       <AutoPlaySwipeableViews
         axis={theme.direction === "rtl" ? "x-reverse" : "x"}

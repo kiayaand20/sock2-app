@@ -86,9 +86,7 @@ const SignIn = (props) => {
           onChange={handleChange}
           />
           </div>
-          <Link className='signuptodaylink'to='/sign-up'>
-            <h3 className='signuptoday'>Don't have an account? Sign-up today!</h3>
-            </Link>
+          <h3 className='signuptoday'>Don't have an account? <Link className='signuptodaylink'to='/sign-up'> Sign-up today!</Link></h3>
         {renderError()}
       </form>
       

@@ -24,24 +24,25 @@
   width: 690px;
   height: 50px;
   background: #c4c4c4;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Hanuman", serif;
   text-align: left;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
 }
 
 .signinsubmit {
-  justify-self: right;
+  justify-self: center;
   font-family: "Indie Flower", cursive;
   background: #c4c4c4;
   width: 180px;
-  height: 72px;
-  font-size: 36px;
+  height: 50px;
+  font-size: 30px;
   font-weight: bold;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
   margin-right: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
+
 .welcome {
   font-size: 40px;
   text-align: center;
@@ -50,12 +51,15 @@
 }
 
 .signuptodaylink {
-  text-decoration: none;
-  color: black;
+  color: rgb(0, 180, 123);
   font-family: Optima, sans-serif;
 }
 
 @media (max-width: 1024px) {
+  .welcome {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
 }
 
 @media (max-width: 800px) {

@@ -4,7 +4,6 @@
 
 .form-container {
   display: flex;
-  margin-top: 30px;
 }
 
 .sign-up-title {
@@ -17,7 +16,7 @@
   font-family: "Indie Flower", cursive;
   background: #c4c4c4;
   width: 180px;
-  height: 72px;
+  height: 50px;
   font-size: 30px;
   font-weight: bold;
   filter: drop-shadow(16px 14px 3px rgb(0, 180, 123, 0.25));
@@ -42,14 +41,15 @@
   flex-direction: column;
   flex-wrap: wrap;
   padding-right: 60px;
-  padding-top: 50px;
+  padding-top: 5px;
 }
+
 .label {
   display: flex;
   text-align: left;
   justify-content: flex-start;
   font-family: "Hanuman", serif;
-  font-size: 24px;
+  font-size: 25px;
   padding-bottom: 15px;
   padding-top: 20px;
 }
@@ -71,12 +71,13 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .sign-up-title {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    margin-top: 0px;
   }
   .call-to-action-p {
     text-align: center;
